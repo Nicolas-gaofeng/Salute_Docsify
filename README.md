@@ -1,6 +1,4 @@
-![salute_docsify](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/docsify.jpg)
-
-
+![salute_docsify](./image/docsify.jpg)
 
 ## 写在前面
 
