@@ -1,14 +1,13 @@
-<!-- _coverpage.md -->
+![docsify](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105005536.jpeg)
 
-# docsify <small>3.5</small>
+# 豆瓣影音
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+> 使用Vue全家桶+Node.js搭建的小型全栈项目.
+
+* 前端框架：vue-cli、vue-router、axios、vuex
+* UI类库：Mint-UI、Vant
+* 后端数据接口：Express、MongoDB
+
+[GitHub](https://github.com/Nicolas-gaofeng/Salute_Docsify)
 [Get Started](#quick-start)
 
-<!-- 背景图片 -->
-
-![](_media/bg.png)
-
-<!-- 背景色 -->
-
-![color](#f0f0f0)
