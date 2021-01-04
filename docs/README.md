@@ -1,42 +1,42 @@
 
 
-## 1. Node.js下载
+### 1. Node.js下载
 
 官网下载地址：http://nodejs.cn/download/
 
 根据自己需要下载对应的版本即可,我下载的是windows系统64位的版本。
 
-![](../image/1.1.1.png)
+![](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.1.1.png)
 
-## 2. Node.js安装
+### 2. Node.js安装
 
 1.安装第一步直接点Next。
 
-![image-20210104192102227](../image/1.2.1.png)
+![image-20210104192102227](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.2.1.png)
 
 2.把选项打勾之后点击Next。
 
-![image-20210104192138922](../image/1.2.2.png)
+![image-20210104192138922](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.2.2.png)
 
 3.设置安装路径，设置完成之后点击Next。
 
-![image-20210104192440462](../image/1.2.3.png)
+![image-20210104192440462](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.2.3.png)
 
 4.点击Next。
 
-![image-20210104192509037](../image/1.2.4.png)
+![image-20210104192509037](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.2.4.png)
 
 5.点击Install安装。
 
-![image-20210104192537418](../image/1.2.5.png)
+![image-20210104192537418](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.2.5.png)
 
 6.等待安装完成。
 
-![image-20210104192557243](../image/1.2.6.png)
+![image-20210104192557243](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.2.6.png)
 
 7.点击Finish完成安装。
 
-![image-20210104192632266](../image/1.2.7.png)
+![image-20210104192632266](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.2.7.png)
 
 3.查看node.js是否安装成功
 
@@ -49,7 +49,7 @@ node -v
 npm -v
 ```
 
-![image-20210104193118926](../image/1.3.png)
+![image-20210104193118926](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.3.png)
 
 4.配置
 
@@ -76,11 +76,11 @@ npm list -global
 
 在环境变量 -> 系统变量中新建一个变量名为 “NODE_PATH”， 值为“D:\Program Files\nodejs\node_modules”，如下图所示
 
-![image-20210104194232070](../image/1.4.2.png)
+![image-20210104194232070](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.4.2.png)
 
 然后编辑用户变量里的Path，将相应npm的路径改为：D:\software\nodejs\node_global，如下：
 
-![image-20210104194412170](../image/1.4.2.2.png)
+![image-20210104194412170](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.4.2.2.png)
 
 
 
@@ -92,7 +92,7 @@ npm list -global
 npm config set registry=http://registry.npm.taobao.org 
 ```
 
-![image-20210104194036603](../image/1.4.3.png)
+![image-20210104194036603](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.4.3.png)
 
 查看镜像站是否有用，看看能否获得vue的信息。如下图所示
 
@@ -100,6 +100,6 @@ npm config set registry=http://registry.npm.taobao.org
 npm info vue 
 ```
 
-![image-20210104194702169](../image/1.4.3.2.png)
+![image-20210104194702169](https://github.com/Nicolas-gaofeng/Salute_Docsify/blob/main/image/1.4.3.2.png)
 
 配置完成。
