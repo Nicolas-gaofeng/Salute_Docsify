@@ -108,33 +108,31 @@ npm info vue
 
 ## 二、图片问题
 
-使用Github作为图床，配置PicGo+Typora
+`使用Github或者Git作为图床，配置PicGo+Typora`
 
 图床就是存储图片的服务器，允许你把图片上传到服务器上，通过链接进行访问。目前很多图床都是免费的，但是大多数图床都有存储容量限制，有的还需要为此购买一个域名备案，使用起来很拘束。使用Github作为图床的优点是免费不限容量配置简单，不担心厂商跑路问题。
 
 1.注册git账号
 
-![image-20210105000225757](C:\Users\zgf\AppData\Roaming\Typora\typora-user-images\image-20210105000225757.png)
+![image-20210105000225757](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004135.png)
 
-创建完成后点击**右上角头像**->设置->私人令牌->生成新令牌。 
+创建完成后点击右上角头像->设置->私人令牌->生成新令牌。 
 
-![image-20210105000533227](D:\我的坚果云\IT\8.图床\image-20210105000533227.png)
+![image-20210105000533227](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004234.png)
 
 点击提交 这时候会让你输密码，输入即可
-
-fc9e850b68052f5af560810eced38a3f
 
 然后保存生成的令牌！！！一定要保存！！只会出现一次！！
 
 然后我们打开我们下载好的PicGo
 点击图床设置，没有看到Gitee的图床，这是因为我们还没有下载~
-点击插件设置，安装Gitee图床插件**gitee-uploader**，然后重启一下软件，就可以看到了！
+点击插件设置，安装Gitee图床插件gitee-uploader，然后重启一下软件，就可以看到了！
 
-![image-20210105000800925](D:\我的坚果云\IT\8.图床\image-20210105000800925.png)
+![image-20210105000800925](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004404.png)
 
-然后点击**图床设置**中的gitee
+然后点击图床设置中的gitee
 
-![image-20210105001253189](D:\我的坚果云\IT\8.图床\image-20210105001253189.png)
+![image-20210105001253189](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004424.png)
 
 **配置参数说明：**
 
@@ -153,11 +151,11 @@ fc9e850b68052f5af560810eced38a3f
 1. 在Github主页点击左上方的new按钮，准备新建仓库
 2. 输入仓库名、仓库描述、选择仓库为公开的、初始化README文件，点击【Create repository】按钮创建仓库
 
-![image-20210104224236187](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\7313.png)
+![7313](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004446.png)
 
 
 
-## 3.生成一个Token
+## 生成一个Token
 
 Token是服务端生成的一串字符串，以作客户端进行请求的一个令牌，客户端只需带上这个Token前来请求数据即可，无需带上用户名和密码。
 
@@ -165,24 +163,22 @@ Token的目的是为了减轻服务器的压力，减少频繁的查询数据库
 
 在主页点击右上角的个人头像，依次选择【Settings】-【Developer settings】-【Personal access tokens】，跳转到这个界面
 
-![image-20210104224443384](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\image-20210104224443384.png)
+![image-20210104224443384](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004500.png)
 
 点击【Generate new token】，输入登录密码，填写好描述，勾选【repo】，然后点击【Generate token】(拉到最底部可以看到)，生成一个Token（很长很长~）。
 
-![image-20210104224619540](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\image-20210104224619540.png)
+![image-20210104224619540](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004508.png)
 
 1. 注意！！！这个Token只会显示一次，自己先保存下来，或者等后面配置好PicGo后再关闭此网页
 
-77d62f4c9aaf7b844fc3a33cd1aa2a0ac5f539f6
-
-## 4. 配置PicGo
+## 1.PicGo
 
 > PicGo是一个图床管理软件，配置后可以很方便的进行图片上传的操作，还有很多插件的支持，例如上传图片自动压缩、添加水印等… … 最重要的是可以与Typora进行交互，实现书写markdown中粘贴即上传的效果！
 
 1. PicGo在Github的页面：https://github.com/Molunerfinn/PicGo
 2. 下载安装好后，打开软件，选择【图床设置】->【GitHub设置】，跳转到如下界面：
 
-![image-20210104225856072](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\image-20210104225856072.png)
+![image-20210104225856072](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004520.png)
 
 1. 配置说明
 
@@ -214,10 +210,10 @@ Token的目的是为了减轻服务器的压力，减少频繁的查询数据库
    ```
 
    1. 在github项目主页面，点击【Create a new release】
-   2. ![image-20210104230157964](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\image-20210104230157964.png)
+   2. ![image-20210104230157964](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004532.png)
    3. 自定义版本号，点击【Publish release】按钮发布
 
-![image-20210104230251407](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\image-20210104230251407.png)
+![image-20210104230251407](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004539.png)
 
 配置完成，使用方法：`https://cdn.jsdelivr.net/gh/用户名/仓库名@版本号/文件路径`
 
@@ -231,17 +227,13 @@ Token的目的是为了减轻服务器的压力，减少频繁的查询数据库
 2. 打开PicGo 【设置】 -【设置Server】，进行如下配置(一般都为默认)
 3. 
 
-![image-20210104230409614](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\image-20210104230409614.png)
+![image-20210104230409614](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004548.png)
 
 1. 打开Typora，选择【偏好设置】 - 【图像】
 
 2. 进行如下设置
 
-   ![img](D:\我的坚果云\IT\7.docsify\Salute_Docsify\image\format,png)
+   ![format](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105004603.png)
 
 1. 点击验证图片上传选项，观察success是否为true。成功之后打开GitHub图床仓库，就可以看到两个Typora的图标了~说明配置非常成功。
 2. 现在在Typora中粘贴图片，会自动上传到Github图床，并且自动替换连接，非常省心省事~~~
-
-
-
-参考博客~[我的意大利炮呢](https://blog.csdn.net/qq_36376089)
