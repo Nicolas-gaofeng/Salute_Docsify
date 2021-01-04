@@ -1,4 +1,4 @@
-![salute_docsify](./image/docsify.jpg)
+![docsify](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105003816.jpg)
 
 ## 写在前面
 
