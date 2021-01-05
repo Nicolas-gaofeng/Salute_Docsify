@@ -52,7 +52,7 @@
   
 - 官方网址：
 
-https://docsify.js.org/#/zh-cn/
+  https://docsify.js.org/#/zh-cn/
 
 ## 一、安装
 
