@@ -1,10 +1,12 @@
-![docsify](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105003816.jpg)
+![docsify](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105003816.jpg#pic_center)
 
 ## 写在前面
 
 - 关于封面
 
-   文明致敬docsify的一种方式，配备程序员都爱的学习网站logo风格。
+   我是中国人，当然要打出我们的大国宝啦。另外这是文明致敬docsify的一种方式，搭配程序员都爱的学习网站logo风格，别有一番滋味在心头~
+
+   ![u=3397689449,4160955919&fm=26&gp=0](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105110230.jpg)
 
    
 
@@ -16,9 +18,17 @@
 
   
 
-- 邮箱：
+- 联系我：
+
+   微信：
+
+   intereting1366
+
+   邮箱：
 
    gaofeng_zgf@163.com
+
+   nicolasgaofeng@gmail.com
 
    
 
