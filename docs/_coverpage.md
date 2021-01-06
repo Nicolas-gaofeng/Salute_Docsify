@@ -1,7 +1,7 @@
 <br><br>
 ![docsify](https://gitee.com/zgf1366/pic_store/raw/master/img/20210105160036.jpeg)
 
-## 一份自己学习IT路上的踩坑记录 | 🚴‍♂️ 
+## 一份学习IT路上的踩坑记录 | 🚴‍♂️ 
 <iframe src="https://ghbtns.com/github-btn.html?user=Nicolas-gaofeng&repo=Salute_Docsify&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 <iframe src="https://ghbtns.com/github-btn.html?user=Nicolas-gaofeng&repo=Salute_Docsify&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 <br><br>
