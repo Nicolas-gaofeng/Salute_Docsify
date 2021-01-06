@@ -8,7 +8,7 @@
 
 cmd打开命令行全局安装docsify，输入以下命令：
 
-```undefined
+```bash
 npm i docsify-cli -g
 ```
 
@@ -20,7 +20,7 @@ npm i docsify-cli -g
 
 在文件夹地址框输入cmd打开命令行输入以下命令：
 
-```kotlin
+```bash
 docsify init ./docs
 ```
 
@@ -40,7 +40,7 @@ docsify init ./docs
 
 运行一个本地服务器，通过 docsify serve 可以方便的预览效果，而且提供 LiveReload 功能，可以实时的预览。默认通过 [http://localhost:3000](https://links.jianshu.com/go?to=http%3A%2F%2Flocalhost%3A3000)访问。
 
-```undefined
+```bash
 docsify serve docs
 ```
 
@@ -63,7 +63,7 @@ window.$docsify = {
 
 通过设置index.html中window.$docsify的 repo 参数配置仓库地址或者 username/repo 的字符串，会在页面右上角渲染一个 [GitHub Corner](https://links.jianshu.com/go?to=http%3A%2F%2Ftholman.com%2Fgithub-corners%2F) 挂件，点击即可跳转到Github中对应的项目地址。
 
-```xml
+```js
 <script>
     window.$docsify = {
       name: 'Salute_Docsify',
@@ -80,7 +80,7 @@ window.$docsify = {
 
 通过设置 index.html 中 window.$docsify 的 `coverpage` 参数，即可开启渲染封面的功能。
 
-```xml
+```js
 <script>
     window.$docsify = {
       name: 'docsify',
@@ -237,7 +237,7 @@ window.$docsify = {
 
 在 `./docs` 下创建一个 `_navbar.md` 文件，在该文件中使用 Markdown 格式书写导航：
 
-```text
+```markdown
 * 导航1
     * [子导航](nav1/child/)
 * [导航2](nav2/)
@@ -318,7 +318,7 @@ window.$docsify = {
 
 另外还有一种在网上看到的样式：
 
-```xml
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 ```
 
@@ -326,7 +326,7 @@ window.$docsify = {
 
 目前我创建的文档是单页面的，上下滚动即可浏览全部内容。如果想创建多个页面，即点击左侧侧边栏导航跳转到不同url，就需要配置多级路由，这一功能在docsify中也很容易实现，我们需要在index.html文件中的`window.$docsify`中开启loadSidebar选项：
 
-```xml
+```js
 <script>
   window.$docsify = {
     loadSidebar: true
@@ -349,7 +349,7 @@ window.$docsify = {
 
 打开 index.html 文件，添加全文搜索配置项，并引入 search.min.js，如下所示：
 
-```js
+```html
 <body>
   <script>
     window.$docsify = {

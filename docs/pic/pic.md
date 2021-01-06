@@ -102,7 +102,7 @@ Token的目的是为了减轻服务器的压力，减少频繁的查询数据库
 3. 在本地右键->【Git Bash Here】，执行`git clone [复制的地址]`
 4. 随便选择一个文件放到本地git库中，右键->【Git Bash Here】执行以下命令(第一次使用git需要指定邮箱和用户名)
 
-```
+```text
 git status					//查看状态
 git add [文件]				//添加文件到暂存区
 git commit -m "第一次提交" 	//提交到仓库
